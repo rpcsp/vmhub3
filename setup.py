@@ -26,6 +26,5 @@ setuptools.setup(
     entry_points="""\
     [console_scripts]
     vmhub3 = vmhub3.vmhub3:main
-    """,
-    test_flake8=True
+    """
 )
