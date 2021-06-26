@@ -6,7 +6,6 @@ with open("README.md", "r", encoding="utf-8") as fh:
 setuptools.setup(
     name="vmhub3",
     version="1.0",
-    author="Raphael Cunha",
     author_email="pcunha@hotmail.com",
     description="python module to send instructions to VM Hub 3 routers",
     long_description=long_description,
