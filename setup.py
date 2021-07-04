@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="vmhub3",
-    version="1.0",
+    version="1.0.1",
     author="rpcsp",
     author_email="pcunha@hotmail.com",
     description="python module to send instructions to VM Hub 3 routers",
@@ -33,7 +33,7 @@ setuptools.setup(
         "requests",
         "xmltodict",
     ],
-    test_requires=[
+    tests_require=[
         "pytest",
         "pytest-cov",
         "pytest-flake8",
