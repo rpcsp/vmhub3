@@ -8,7 +8,7 @@ setuptools.setup(
     version="1.0.1",
     author="rpcsp",
     author_email="pcunha@hotmail.com",
-    description="python module to send instructions to VM Hub 3 routers",
+    description="python module to send instructions to Virgin Media Hub 3.0 / Compal routers",
     license="https://github.com/rpcsp/vmhub3/blob/main/LICENSE",
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -32,11 +32,6 @@ setuptools.setup(
     install_requires=[
         "requests",
         "xmltodict",
-    ],
-    tests_require=[
-        "pytest",
-        "pytest-cov",
-        "pytest-flake8",
     ],
     entry_points="""\
     [console_scripts]
