@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="vmhub3",
-    version="1.0.1",
+    version="1.0.2",
     author="rpcsp",
     author_email="pcunha@hotmail.com",
     description="python module to send instructions to Virgin Media Hub 3.0 / Compal routers",
