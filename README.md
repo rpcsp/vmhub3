@@ -1,6 +1,6 @@
 # vmhub3
 
-Simple python module to send instructions to VM Hub 3 router.
+Simple python module to send instructions to Virgin Media Hub 3.0 / Compal router.
 
 ### Example - Reading configs and attributes:
 
@@ -9,7 +9,7 @@ Simple python module to send instructions to VM Hub 3 router.
 
     logging.basicConfig(level=logging.DEBUG)
 
-    router = VMHub3(ip='1.1.1.1', password='your-router-pwd')
+    router = VMHub3(ip='your-router-ip', password='your-router-pwd')
     router.connect()
     router.get_global_config()
     router.get_language_config()
@@ -26,6 +26,6 @@ Simple python module to send instructions to VM Hub 3 router.
 
     from vmhub3 import VMHub3
 
-    router = VMHub3(ip='1.1.1.1', password='your-router-pwd')
+    router = VMHub3(ip='your-router-ip', password='your-router-pwd')
     router.connect()
     router.reboot()
